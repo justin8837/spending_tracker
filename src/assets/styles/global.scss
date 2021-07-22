@@ -1,0 +1,11 @@
+/*
+* @title CSS Declearations
+* @dscription import all css files in here
+*/
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/scss/bootstrap";
+@import url("http://fonts.cdnfonts.com/css/soleil");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import "./global";
+@import "./components/form";
