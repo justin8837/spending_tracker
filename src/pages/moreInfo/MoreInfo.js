@@ -1,13 +1,13 @@
 import React from "react";
+import NavBar from "../../components/navbar/NavBar";
 
 const MoreInfo = () => {
-    return(
-        <>
-        <div>
-            This is more info page
-        </div>
-        </>
-    )
-}
+  return (
+    <>
+      <NavBar />
+      <div>This is more info page</div>
+    </>
+  );
+};
 
 export default MoreInfo;

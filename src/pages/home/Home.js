@@ -1,19 +1,12 @@
-import React from "react";
-import { Container, Tabs, Tab } from "react-bootstrap";
-import MoreInfo from "../moreInfo/MoreInfo";
-import AppLayout from "../../components/layouts/AppLayout";
-import TabLayout from "../../components/layouts/TabLayout";
+import React from 'react';
+import NavBar from "../../components/navbar/NavBar";
 
-const Home = () => {
-  return (
-    <>
-      <AppLayout>
-        <Tab eventKey="home" title="Home"></Tab>
-        <Tab eventKey="profile" title="Profile"></Tab>
-        <Tab eventKey="contact" title="Contact" disabled></Tab>
-      </AppLayout>
-    </>
-  );
-};
+const Home = () =>{
+    return (
+        <>
+            <NavBar/>        
+        </>
+    )
+}
 
-export default Home;
+export default Home
