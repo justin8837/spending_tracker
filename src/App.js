@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./assets/styles/app.scss"
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Dashboard from "./pages/dashboard/Dashboard";
