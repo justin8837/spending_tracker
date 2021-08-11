@@ -1,8 +1,5 @@
 import React from "react";
 import NavBar from "../../components/navbar/NavBar";
-import Overview from "./components/Overview";
-import AppLayout from "../../components/layouts/AppLayout";
-import ExpenseItem from "../../components/expenseItem/ExpenseItem";
 import Expenses from "../../components/expenses/Expenses";
 
 const Dashboard = () => {
@@ -30,7 +27,7 @@ const Dashboard = () => {
   return (
     <>
       <NavBar />
-      <Expenses items={expenses}/>
+      <Expenses spending={expenses}/>
     </> 
   );
 };
