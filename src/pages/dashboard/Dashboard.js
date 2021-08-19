@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../../components/navbar/NavBar";
 import Expenses from "../../components/expenses/Expenses";
-
+import NewExpense from "../../components/newExpense/NewExpense";
 const Dashboard = () => {
   const expenses = [
     {
@@ -26,9 +26,12 @@ const Dashboard = () => {
   ];
   return (
     <>
-      <NavBar />
-      <Expenses spending={expenses}/>
-    </> 
+      <div>
+        <NavBar />
+        <NewExpense />
+        <Expenses spending={expenses} />
+      </div>
+    </>
   );
 };
 
