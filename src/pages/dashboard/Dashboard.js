@@ -24,11 +24,15 @@ const Dashboard = () => {
       date: new Date(2021, 5, 12),
     },
   ];
+  const addExpenseHandler = (expense) => {
+    console.log("working");
+    console.log(expenses);
+  };
   return (
     <>
       <div>
         <NavBar />
-        <NewExpense />
+        <NewExpense AddExpense={addExpenseHandler} />
         <Expenses spending={expenses} />
       </div>
     </>
